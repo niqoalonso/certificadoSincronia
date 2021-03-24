@@ -1,0 +1,2 @@
+[10-Sep-2020 21:47:33 UTC] PHP Fatal error:  Declaration of Symfony\Component\Translation\TranslatorInterface::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home/incapnov/certificacion/vendor/symfony/translation/TranslatorInterface.php on line 24
+[23-Sep-2020 17:41:14 UTC] PHP Fatal error:  Cannot declare class App\Http\Requests\Alumno\AlumnoRequest, because the name is already in use in /home/incapnov/certificacion/storage/framework/views/57b21f29c40c99e0b52ec66d4cf320eacc5b1642.php on line 44

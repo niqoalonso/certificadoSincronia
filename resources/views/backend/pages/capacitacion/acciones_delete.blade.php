@@ -1,0 +1,1 @@
+<button type="button" onclick="ActivarCapacitacionConfirmar(this.id)" id="{{$id}}" class="btn btn-success btn-mini"><i class="fa fa-book"></i></button>

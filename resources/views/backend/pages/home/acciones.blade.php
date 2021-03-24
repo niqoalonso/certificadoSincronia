@@ -1,0 +1,1 @@
+<a href="{{route('get.certificado', $id)}}"><button type="button" class="btn btn-success btn-mini"><i class="fa fa-file-pdf-o"></i> </button></a>

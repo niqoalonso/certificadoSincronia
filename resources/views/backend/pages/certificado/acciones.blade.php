@@ -1,0 +1,3 @@
+<a href="{{route('get.certificado', $id)}}" target="_blank"><button type="button" class="btn btn-success btn-mini"><i class="fa fa-file-pdf-o"></i> </button></a>
+<button type="button" onclick="EditarCertificado(this.id)" id="{{$id}}" class="btn btn-warning btn-mini"><i class="fa fa-edit"></i></button>
+<button type="button" class="btn btn-danger btn-mini" onclick="ConfirmarDelete(this.id)" id="{{$id}}"><i class="fa fa-trash"></i></button>

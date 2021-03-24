@@ -1,0 +1,3 @@
+<button type="button" class="btn btn-primary btn-mini" onclick="CertificadoView(this.id)" id="{{$id}}" ><i class="fa fa-list"></i></button>
+<button type="button" onclick="EditarCapacitacion(this.id)" id="{{$id}}" class="btn btn-warning btn-mini"><i class="fa fa-edit"></i></button>
+<button type="button" class="btn btn-danger btn-mini" onclick="ConfirmarEliminar(this.id)" id="{{$id}}"><i class="fa fa-trash"></i></button>
