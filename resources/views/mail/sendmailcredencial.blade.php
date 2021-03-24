@@ -12,7 +12,7 @@
         <tr>
           <td style="vertical-align: top; padding-bottom:30px;" align="center">
             <a href="http://sincronialtda.cl" target="_blank">
-            <img height="100px" src="https://www.sincronialtda.cl/assets/images/sincronia-logo.png"  style="border:none"></a>
+            <img height="100px" src="https://certificado.sincronialtda.cl/backend/img/logo_pdf.png"  style="border:none"></a>
             <br/>
           </td>
         </tr>
