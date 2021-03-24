@@ -45,8 +45,6 @@ Route::get('/solicitudCertificadoSend/{id}', 'SolicitudEmpresaController@SendCer
 
 Auth::routes();
 
-Route::get('prueba', 'WebBackendController@prueba');
-
 Route::get('/clear-cache', function() {
     $exitCode = Artisan::call('cache:clear');
     $exitCode = Artisan::call('config:cache');
