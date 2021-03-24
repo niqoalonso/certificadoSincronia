@@ -14,7 +14,7 @@
         }
         body{
             border: #B0AC00 6px solid;
-            background-image: url("fondo2.png");
+            background-image: url("https://certificado.sincronialtda.cl/fondo2.png");
             background-repeat: no-repeat;
         }
         p{
