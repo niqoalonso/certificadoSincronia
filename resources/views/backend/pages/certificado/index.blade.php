@@ -81,7 +81,7 @@
 														<div class="input-group">
                                                             <input name="nota" type="text" onkeypress="ChangeCaracter(this.value)" class="form-control" maxlength="5" required>
                                                             <span class="input-group-append">
-                                                                <label class="input-group-text"><i class="fa fa-percent"></i></label>
+                                                                <label class="input-group-text"><i class="fa fa-window-close-o"></i></label>
                                                             </span>
                                                         </div>
 													</div>
@@ -174,7 +174,7 @@
 														<div class="input-group">
                                                             <input name="nota" type="text" class="form-control nota_porcentaje" onkeypress="ChangeCaracter(this.value)">
                                                             <span class="input-group-append">
-                                                                <label class="input-group-text"><i class="fa fa-percent"></i></label>
+                                                                <label class="input-group-text"><i class="fa fa-window-close-o"></i></label>
                                                             </span>
                                                         </div>
 													</div>

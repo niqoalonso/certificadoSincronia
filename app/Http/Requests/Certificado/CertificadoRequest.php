@@ -21,7 +21,7 @@ class CertificadoRequest extends FormRequest
             'alumno'                    => ['required', 'numeric'],
             'f_inicio'                  => ['required', 'date', 'before_or_equal:f_termino'],
             'f_termino'                 => ['required', 'date', 'after:f_inicio'],
-            'nota'                      => ['required', 'numeric', 'min:57', 'max:100'],
+            'nota'                      => ['required', 'numeric', 'min:40', 'max:70'],
             'vigencia'                  => ['nullable','required_if:tipo, ==, 1', 'date', 'after:f_termino'],
         ];
     }
@@ -43,8 +43,8 @@ class CertificadoRequest extends FormRequest
             'f_termino.after'                   => "La Fecha termino no puede ser menor a la Fecha inicio.",
             'f_termino.date'                    => "Ingrese fecha de termino valida.",
             'nota.required'                     => "Debe ingresar el porcentaje de nota.",
-            'nota.min'                          => "Debe ingresar una nota minimo de 56 hasta 100.",
-            'nota.max'                          => "Debe ingresar una nota minimo de 56 hasta 100.",
+            'nota.min'                          => "Debe ingresar una nota minimo de 40 hasta 70.",
+            'nota.max'                          => "Debe ingresar una nota minimo de 40 hasta 70.",
             'nota.numeric'                      => "Haz ingresado un valor incorrecto de nota.",
             'vigencia.required_if'                 => "Debe ingresar una fecha de vigencia.",
             'vigencia.date'                     => "Ingrese una fecha de vigencia valida.",
